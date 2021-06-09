@@ -1,0 +1,49 @@
+.Home{
+    width: 100%;
+    height: 100%;
+}
+
+.myName{
+    margin-top: 0%;
+    transition: all 2s ease-out;
+}
+
+ .myNameMove{
+    margin-top: 2%;
+}
+ .myNameMove .YD{
+    font-size: 65px;
+}
+
+.MyPicture img{
+    max-width: 350px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 2px;
+    max-height: 350px;
+    width: 100%;
+}
+
+.subtitle{
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
+    line-height: 5px;
+    padding-bottom: 25px;
+}
+
+.subtitleShow{
+    opacity: 1;
+}
+
+.YD {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Super Mario';
+    transition: all 1s ease-out 500ms;
+}
+
+.YD span{
+    color:#86c2ff;
+}
