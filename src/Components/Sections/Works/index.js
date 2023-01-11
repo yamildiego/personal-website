@@ -5,11 +5,11 @@ import { BrowserView, MobileView } from "react-device-detect";
 
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import bombieri from "../../../Assets/bombieri.png";
-import itsynch from "../../../Assets/itsynch.png";
-import freelance from "../../../Assets/freelance.png";
-import cursor from "../../../Assets/cursor.png";
-import finger from "../../../Assets/finger.png";
+import bombieri from "../../../Assetss/bombieri.png";
+import itsynch from "../../../Assetss/itsynch.png";
+import freelance from "../../../Assetss/freelance.png";
+import cursor from "../../../Assetss/cursor.png";
+import finger from "../../../Assetss/finger.png";
 
 import "./Works.css";
 

@@ -5,7 +5,7 @@ import Box from "@mui/material/Box";
 
 import * as Colors from "../../../Constants/Colors";
 
-import yamil from "../../../Assets/yamil.png";
+import yamil from "../../../Assetss/yamil.png";
 
 class RightPanel extends Component {
   render() {

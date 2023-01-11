@@ -10,11 +10,11 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import Link from "@mui/material/Link";
 
-import verdeagostini from "../../../Assets/verdeagostini.png";
-import ecommerce from "../../../Assets/ecommerce.png";
-import tedx from "../../../Assets/tedx.png";
-import candydev from "../../../Assets/candydev.png";
-import myb from "../../../Assets/myb.png";
+import verdeagostini from "../../../Assetss/verdeagostini.png";
+import ecommerce from "../../../Assetss/ecommerce.png";
+import tedx from "../../../Assetss/tedx.png";
+import candydev from "../../../Assetss/candydev.png";
+import myb from "../../../Assetss/myb.png";
 
 import "./Portfolio.css";
 
