@@ -1,0 +1,33 @@
+.Home {
+    margin-top: 150px;
+}
+
+.Title {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.BodyHome {
+    padding-left: 7%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .Home {
+        margin-top: 90px;
+    }
+
+    .Title {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .TextHome {
+        font-size: 19px;
+    }
+
+    .BodyHome {
+        padding-left: 0;
+    }
+}

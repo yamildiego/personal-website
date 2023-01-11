@@ -1,0 +1,48 @@
+.MenuIconBtn {
+    height: 40px;
+    border: 0;
+    background-color: transparent;
+}
+
+.MenuIconOpen .MenuIconBars {
+    background-color: transparent;
+}
+
+.MenuIconBars,
+.MenuIconBars:after,
+.MenuIconBars:before {
+    display: block;
+    background-color: #7d7d7a;
+    transition: .3s;
+}
+
+.MenuIconBars {
+    position: relative;
+    width: 30px;
+    height: 3px;
+}
+
+.MenuIconOpen .MenuIconBars:before {
+    transform: rotate(45deg);
+}
+
+.MenuIconOpen .MenuIconBars:after {
+    transform: rotate(-45deg);
+}
+
+.MenuIconBars:after,
+.MenuIconBars:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.MenuIconBars:before {
+    transform: translateY(-12px);
+}
+
+.MenuIconBars:after {
+    transform: translateY(12px);
+}

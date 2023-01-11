@@ -1,0 +1,12 @@
+.grid {
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .grid {
+        width: 90%;
+        margin: auto;
+    }
+}

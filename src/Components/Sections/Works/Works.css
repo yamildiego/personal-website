@@ -1,0 +1,36 @@
+.Company {
+    color: #c7c7c7;
+    transition: all 0.8s ease, border 0.2s ease;
+}
+
+.Company:hover {
+    color: #222
+}
+
+.Cursor {
+    margin-top: 24px;
+    width: 16px;
+    position: absolute;
+    animation: Cursor-moving infinite 2s linear;
+}
+
+.Finger {
+    margin-top: 24px;
+    width: 150px;
+    position: absolute;
+    animation: Cursor-moving infinite 2s linear;
+}
+
+@keyframes Cursor-moving {
+    from {
+        left: 45%;
+    }
+
+    50% {
+        left: 55%;
+    }
+
+    to {
+        left: 45%;
+    }
+}
