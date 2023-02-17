@@ -15,6 +15,7 @@ import ecommerce from "../../../Assetss/ecommerce.png";
 import tedx from "../../../Assetss/tedx.png";
 import candydev from "../../../Assetss/candydev.png";
 import myb from "../../../Assetss/myb.png";
+import chessing from "../../../Assetss/chessing.png";
 
 import "./Portfolio.css";
 
@@ -53,6 +54,13 @@ const portfolios = [
     img: myb,
     description: "Manage your business",
     link: "https://myb.yamildiego.com/",
+  },
+  {
+    key: 5,
+    name: "Chessing",
+    img: chessing,
+    description: "Chessing - Offline",
+    link: "https://play.google.com/store/apps/details?id=com.yamildiego.chessing",
   },
 ];
 
