@@ -63,6 +63,7 @@ class NavBar extends Component {
                   transition: "all 0.6s ease, border 0.2s ease",
                   opacity: this.state.isTop ? 0 : 1,
                   color: "#222",
+                  cursor: "pointer",
                 }}
               >
                 Yamil Diego
