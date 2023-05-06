@@ -1,3 +1,12 @@
+* {
+  user-select: none;
+}
+
+html,
+body {
+  margin: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,4 +14,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.container-tech {
+  position: relative;
+}
+
+.tech {
+  z-index: 100;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tech:hover {
+  transform: scale(1.3);
 }
