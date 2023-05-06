@@ -126,7 +126,7 @@ const styles = {
     margin: "6px",
   },
   titleSkill: {
-    fontSize: "42px",
+    fontSize: "38px",
     marginBottom: 2,
     textAlign: "center",
     color: "#d74d00",

@@ -111,11 +111,10 @@ const styles = {
   },
   home: {
     transition: "all 0.6s ease, border 0.2s ease",
-    color: "#222",
+    color: "#555555",
     cursor: "pointer",
-    fontFamily: "Bangers",
+    fontFamily: "Rampart One",
     fontSize: "40px",
-    textShadow: "0 0 2px #fe6f27",
     paddingLeft: "16px",
   },
 };
