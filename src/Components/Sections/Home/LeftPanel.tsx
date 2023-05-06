@@ -38,11 +38,10 @@ const styles = {
     position: "relative",
   },
   title: {
-    textAlign: "left",
+    fontWeight: "bold",
+    color: "#444",
     fontSize: isMobile ? "30px" : "40px",
-    fontWeight: 700,
     cursor: "default",
-    userSelect: "none",
   },
   body: {
     mt: "4%",
@@ -51,7 +50,8 @@ const styles = {
     textAlign: "justify",
     lineHeight: isMobile ? "1.8" : "2.8rem",
     userSelect: "none",
-    paddingLeft: "7%",
+    paddingLeft: "5%",
+    paddingRight: "5%",
   },
   text: {
     background: "linear-gradient(to right, hsl(98 100% 62%), hsl(204 100% 59%))",

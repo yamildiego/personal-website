@@ -90,9 +90,7 @@ class Works extends Component {
                       </Grid>
                       <Grid item xs={12} sm={12} md={12} lg={6} xl={6}>
                         <Box sx={{ textAlign: "left", m: 3 }}>
-                          <Box sx={{ fontSize: "25px", lineHeight: "38px", fontFamily: "Quicksand" }}>
-                            <span style={{ fontWeight: "bold" }}>{experience.position}</span>
-                          </Box>
+                          <Box sx={{ fontSize: "25px", lineHeight: "38px" }}>{experience.position}</Box>
                           <Box sx={{ lineHeight: "38px", fontFamily: "Quicksand" }}>
                             <span>My task</span>
                           </Box>
@@ -136,19 +134,18 @@ const styles = {
     width: "100%",
   },
   subContainer: {
-    width: "98%",
-    margin: "auto",
+    pl: 2,
+    pr: 2,
     minHeight: "100vh",
   },
   title: {
-    lineHeight: "130px",
-    fontFamily: "Bangers",
-    fontSize: "40px",
-    color: "#222",
+    fontWeight: "bold",
+    lineHeight: "80px",
+    fontSize: "30px",
+    color: "#444",
   },
   text: {
     fontSize: "28px",
-    fontFamily: "Quicksand",
   },
 };
 

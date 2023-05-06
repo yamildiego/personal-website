@@ -128,11 +128,21 @@ class Portfolio extends Component {
             <Grid container spacing={{ xs: 4, sm: 4, md: 2, lg: 4, xl: 4 }} sx={{ justifyContent: "center" }}>
               {portfolios.map((port, index) => {
                 return (
-                  <Grid key={`project_${index}`} onClick={() => this.setState({ project: port })} item xs={12} sm={12} md={6} xl={4} lg={4}>
+                  <Grid
+                    key={`project_${index}`}
+                    onClick={() => this.setState({ project: port })}
+                    item
+                    xs={12}
+                    sm={6}
+                    md={6}
+                    xl={4}
+                    lg={4}
+                    sx={{ ml: { xs: 4, sm: 0 }, mr: { xs: 4, sm: 0 } }}
+                  >
                     <Card className="grid">
                       <CardActionArea>
                         <CardMedia
-                          sx={{ paddingTop: "12px", margin: "auto", width: "70%" }}
+                          sx={{ pt: { xs: 0, sm: "12px" }, margin: "auto", width: "70%" }}
                           component="img"
                           height="140"
                           image={port.img}
@@ -181,14 +191,14 @@ const styles = {
     width: "100%",
   },
   subContainer: {
-    width: "98%",
-    margin: "auto",
+    pl: 2,
+    pr: 2,
   },
   title: {
-    lineHeight: "130px",
-    fontFamily: "Bangers",
-    fontSize: "40px",
-    color: "white",
+    fontWeight: "bold",
+    lineHeight: "80px",
+    fontSize: "30px",
+    color: "#ffe1d1",
   },
 };
 

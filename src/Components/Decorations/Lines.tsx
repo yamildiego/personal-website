@@ -42,12 +42,13 @@ const Lines = (props: any) => {
         style={{
           borderTopWidth: "3px",
           left: "-62px",
-          width: "570px",
+          width: "540px",
           top: "350px",
           zIndex: 0,
           borderColor: currentColors[0],
         }}
       />
+
       <Line
         style={{
           borderTopWidth: "2px",
@@ -57,6 +58,7 @@ const Lines = (props: any) => {
           borderColor: currentColors[1],
         }}
       />
+
       <Line
         style={{
           borderStyle: "outset",
@@ -66,6 +68,7 @@ const Lines = (props: any) => {
           borderColor: currentColors[2],
         }}
       />
+
       <Line
         style={{
           borderStyle: "outset",
@@ -75,6 +78,7 @@ const Lines = (props: any) => {
           borderColor: currentColors[2],
         }}
       />
+
       <Line
         style={{
           borderStyle: "solid",
@@ -89,6 +93,7 @@ const Lines = (props: any) => {
           borderBottomColor: currentColors[2],
         }}
       />
+
       <Line
         style={{
           borderTopWidth: "8px",
@@ -99,6 +104,7 @@ const Lines = (props: any) => {
           borderColor: currentColors[3],
         }}
       />
+
       <Line
         style={{
           borderTopWidth: "8px",

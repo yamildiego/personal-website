@@ -102,15 +102,15 @@ const styles = {
     paddingBottom: "32px",
   },
   subContainer: {
-    width: "98%",
-    margin: "auto",
+    pl: 2,
+    pr: 2,
     position: "relative",
   },
   title: {
-    lineHeight: "102px",
-    fontFamily: "Bangers",
-    fontSize: "40px",
-    color: "white",
+    fontWeight: "bold",
+    lineHeight: "80px",
+    fontSize: "30px",
+    color: "#ffe1d1",
   },
   card: {
     height: "290px",

@@ -1,3 +1,5 @@
+import { Box } from "@mui/material";
+
 import connectWithDispatch from "../../Hooks/connectWithDispatch";
 
 import * as appActions from "../../Actions/appActions";
@@ -15,9 +17,11 @@ const MenuIcon = (props: MenuIconProps) => {
   const handleOpen = () => setIsSidebarOpen(!isSideBarOpen);
 
   return (
-    <button onClick={handleOpen} className={`MenuIconBtn ${isSideBarOpen ? "MenuIconOpen" : ""}`}>
-      <i className="MenuIconBars"></i>
-    </button>
+    <Box sx={{ mr: 2 }}>
+      <button onClick={handleOpen} className={`MenuIconBtn ${isSideBarOpen ? "MenuIconOpen" : ""}`}>
+        <i className="MenuIconBars"></i>
+      </button>
+    </Box>
   );
 };
 

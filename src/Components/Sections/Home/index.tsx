@@ -13,7 +13,7 @@ class Home extends Component {
     return (
       <Box id={"home"} sx={styles.mainContainer}>
         <Box sx={styles.container}>
-          <div className="Home">
+          <Box sx={styles.subContainer}>
             <Grid container spacing={2}>
               <Grid item xs={12} md={6}>
                 <LeftPanel />
@@ -22,7 +22,7 @@ class Home extends Component {
                 <RightPanel />
               </Grid>
             </Grid>
-          </div>
+          </Box>
         </Box>
       </Box>
     );
@@ -39,8 +39,10 @@ const styles = {
   container: {
     alignItems: "center",
     maxWidth: "1250px",
-    paddingLeft: "25px",
-    paddingRight: "25px",
+  },
+  subContainer: {
+    pl: 2,
+    pr: 2,
   },
 };
 

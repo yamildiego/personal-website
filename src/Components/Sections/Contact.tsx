@@ -61,15 +61,15 @@ const styles = {
     width: "100%",
   },
   subContainer: {
-    width: "98%",
-    margin: "auto",
+    pl: 2,
+    pr: 2,
     height: "90vh",
   },
   title: {
-    lineHeight: "130px",
-    fontFamily: "Bangers",
-    fontSize: "40px",
-    color: "#222",
+    fontWeight: "bold",
+    lineHeight: "80px",
+    fontSize: "30px",
+    color: "#444",
   },
   icon: {
     fontSize: "25px",
