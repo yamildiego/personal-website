@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { Box, Link } from "@mui/material";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp, faFacebook, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faMobileScreen, faAt } from "@fortawesome/free-solid-svg-icons";
 
 class Contact extends Component {
@@ -28,10 +28,10 @@ class Contact extends Component {
               <span style={{ verticalAlign: "3px", paddingLeft: "15px", cursor: "default" }}>yamildiego@gmail.com</span>
             </Box>
             <Box sx={{ lineHeight: "38px" }}>
-              <FontAwesomeIcon style={{ fontSize: "25px", color: "#1b74e4" }} icon={faFacebook} />
+              <FontAwesomeIcon style={{ fontSize: "25px", color: "#1b74e4" }} icon={faLinkedin} />
               <span style={{ verticalAlign: "3px", paddingLeft: "15px" }}>
-                <Link href="https://www.facebook.com/yamildieg0" target="_blank">
-                  /yamildieg0
+                <Link href="https://www.linkedin.com/in/yamildiego" target="_blank">
+                  /yamildiego
                 </Link>
               </span>
             </Box>

@@ -20,7 +20,7 @@ import stripeIMG from "../../Assets/tech_stripe.png";
 import mysqlIMG from "../../Assets/mysql.png";
 import postgresIMG from "../../Assets/postgres.png";
 import adonisIMG from "../../Assets/adonis.png";
-import graphqlIMG from "../../Assets/graphql.png";
+// import graphqlIMG from "../../Assets/graphql.png";
 
 let node = { title: "Node.js", img: nodeIMG };
 let react = { title: "React", img: reactIMG };
