@@ -20,6 +20,7 @@ import stripeIMG from "../../Assets/tech_stripe.png";
 import mysqlIMG from "../../Assets/mysql.png";
 import postgresIMG from "../../Assets/postgres.png";
 import adonisIMG from "../../Assets/adonis.png";
+import graphqlIMG from "../../Assets/graphql.png";
 
 let node = { title: "Node.js", img: nodeIMG };
 let react = { title: "React", img: reactIMG };
@@ -32,15 +33,14 @@ let postgres = { title: "Postgres", img: postgresIMG };
 
 const portfolios = [
   {
-    key: 6,
-    name: "Fashion Forge",
-    img: ffIMG,
-    description: "Where your design, It is our craftsmanship",
-    long_description:
-      "This website allows clients to connect with workshops. Clients can post their jobs, workshops provide quotes, and the jobs are completed once the client accepts one of the received quotes.",
-    long_description_2: "The back-end was built with AdonisJS5 and Postgres, while the front-end was developed using React and MUI",
-    link: "https://tmi.yamildiego.com/",
-    technologies: [react, adonisJS, postgres],
+    key: 4,
+    name: "MYB",
+    img: myb,
+    description: "Manage your business",
+    long_description: `Manage Your Business, a web application that is highly customizable and allows users to configure various modules. With MyB, users can create an "elements" module for items, contacts, and assets, among other things, and set the parameters and data types as needed. This generates a module that enables users to view, add, edit, and export the items in CSV or PDF format.`,
+    long_description_2: ` MyB also includes a permissions system that simplifies function assignment by profile, making it easy to manage groups of people like sales reps, customers, and managers.`,
+    link: "https://myb.yamildiego.com/",
+    technologies: [react, node, mongodb],
   },
   {
     key: 5,
@@ -55,15 +55,17 @@ const portfolios = [
     technologies: [react_native, node, mysql],
   },
   {
-    key: 4,
-    name: "MYB",
-    img: myb,
-    description: "Manage your business",
-    long_description: `Manage Your Business, a web application that is highly customizable and allows users to configure various modules. With MyB, users can create an "elements" module for items, contacts, and assets, among other things, and set the parameters and data types as needed. This generates a module that enables users to view, add, edit, and export the items in CSV or PDF format.`,
-    long_description_2: ` MyB also includes a permissions system that simplifies function assignment by profile, making it easy to manage groups of people like sales reps, customers, and managers.`,
-    link: "https://myb.yamildiego.com/",
-    technologies: [react, node, mongodb],
+    key: 6,
+    name: "Fashion Forge",
+    img: ffIMG,
+    description: "Where your design, It is our craftsmanship",
+    long_description:
+      "This website allows clients to connect with workshops. Clients can post their jobs, workshops provide quotes, and the jobs are completed once the client accepts one of the received quotes.",
+    long_description_2: "The back-end was built with AdonisJS5 and Postgres, while the front-end was developed using React and MUI",
+    link: "https://tmi.yamildiego.com/",
+    technologies: [react, adonisJS, postgres],
   },
+
   {
     key: 1,
     name: "VerdeAgostini",

@@ -46,7 +46,11 @@ const ModalProject = (props: ModalProjectProps) => {
                   );
                 })}
 
-                <Link href={project.link} target={"_blank"} sx={{ textDecoration: "none", color: "#555", marginLeft: "auto" }}>
+                <Link
+                  href={project.link}
+                  target={"_blank"}
+                  sx={{ textDecoration: "none", transform: "rotate(-45deg)", color: "#555", marginLeft: "auto" }}
+                >
                   <LinkIcon />
                 </Link>
               </CardActions>
